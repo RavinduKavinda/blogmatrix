@@ -25,7 +25,7 @@ export const Header = () => {
         </nav>
 
         {/*-----Account-----*/}
-        <div className="account flexCenter">
+        <div className="account flex__center">
           <User />
         </div>
       </div>
