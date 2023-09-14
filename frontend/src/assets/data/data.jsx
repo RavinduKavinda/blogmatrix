@@ -2,27 +2,27 @@
 export const nav = [
     {
       id: 1,
-      text: "home",
+      text: "HOME",
       url: "/",
     },
     {
       id: 2,
-      text: "about",
+      text: "ABOUT",
       url: "/about",
     },
     {
       id: 3,
-      text: "pages",
+      text: "PAGES",
       url: "/pages",
     },
     {
       id: 4,
-      text: "blog",
+      text: "BLOG",
       url: "/blog",
     },
     {
       id: 5,
-      text: "contact",
+      text: "CONTACT",
       url: "/contact",
     },
 ]
