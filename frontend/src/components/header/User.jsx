@@ -9,61 +9,81 @@ import { BiLogOutCircle } from 'react-icons/bi'
 
 
 export const User = () => {
+
+  const user = true
+  const [profileOpen, setprofileOpen] = useState(true)
+
+  const close = () => {
+    setprofileOpen(false)
+  }
+
   return (
     <>
         {/*-----User Profile-----*/}
         <div className="profile">
+            {user ? (
+            <>
             <button className="img">
-                <img src={profile} alt="Profile_Image" />
+                <img src={profile} alt="Profile_Image" onClick={() => setprofileOpen(!profileOpen)} />
             </button>
 
-            <div className="open__profile box__item">
-              {/*dd profile info*/}
-              <Link to='account'>
-                <div className="image">
-                  <div className="img">
-                    <img src={profile} alt="Profile_Image" />
-                  </div>
-                  <div className="text">
-                    <h5>Ravindu Kavinda</h5>
-                    <p>Gampaha, SL</p>
-                  </div>
-                </div>
-              </Link>
+            {profileOpen && (
 
-              <Link to='/create'>
-                <button className="box ">
-                  <IoCreateOutline  className='icon'/>
-                  <h4>Create Post</h4>
+              <div className="open__profile box__item" onClick={close}>
+                {/*dd profile info*/}
+                <Link to='account'>
+                  <div className="image">
+                    <div className="img">
+                      <img src={profile} alt="Profile_Image" />
+                    </div>
+                    <div className="text">
+                      <h5>Ravindu Kavinda</h5>
+                      <p>Gampaha, SL</p>
+                    </div>
+                  </div>
+                </Link>
+
+                <Link to='/create'>
+                  <button className="box ">
+                    <IoCreateOutline  className='icon'/>
+                    <h4>Create Post</h4>
+                  </button>
+                </Link>
+
+                <button className="box">
+                  <RiAccountCircleLine className='icon'/>
+                  <h4>My Account</h4>
                 </button>
-              </Link>
 
-              <button className="box">
-                <RiAccountCircleLine className='icon'/>
-                <h4>My Account</h4>
-              </button>
+                <button className="box">
+                  <IoBagCheckOutline className='icon'/>
+                  <h4>My Order</h4>
+                </button>
 
-              <button className="box">
-                <IoBagCheckOutline className='icon'/>
-                <h4>My Order</h4>
-              </button>
+                <button className="box">
+                  <AiOutlineHeart className='icon'/>
+                  <h4>Wishlist</h4>
+                </button>
 
-              <button className="box">
-                <AiOutlineHeart className='icon'/>
-                <h4>Wishlist</h4>
-              </button>
+                <button className="box">
+                  <FiHelpCircle className='icon'/>
+                  <h4>Help</h4>
+                </button>
 
-              <button className="box">
-                <FiHelpCircle className='icon'/>
-                <h4>Help</h4>
-              </button>
+                <button className="box">
+                  <BiLogOutCircle className='icon'/>
+                  <h4>Log Out</h4>
+                </button>
 
-              <button className="box">
-                <BiLogOutCircle className='icon'/>
-                <h4>Log Out</h4>
-              </button>
+              </div>
 
-            </div>
+            )}
+
+            </>
+            ) : ( 
+              <Link to='/login'>
+                <button>My Account </button>
+              </Link> )}
         </div>
     </>
   )
