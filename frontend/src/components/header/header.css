@@ -24,7 +24,6 @@ nav a {
 
 .profile .image {
   display: flex;
-  padding-bottom: 20px;
 }
 
 .profile .image img {
@@ -47,6 +46,43 @@ nav a {
     font-size: 13px;
 }
 
-.box h4 {
-    font-size: 13px;
+
+
+/*----- Open Profile -----*/
+.open__profile {
+    color: #1e272e;
+    box-shadow: 0 1px 3px #485460;
+    position: absolute;
+    top: 67px;
+    right: 10px;
+    width: 200px;
+    background-color: #ecf0f1;
+    padding-top: 5px;
+}
+
+.open__profile .img {
+  padding-top: 5px;
+}
+
+.open__profile .box {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: 5px;
+    padding-bottom: 5px;
+    transition: 1s;
+}
+
+.open__profile .icon {
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.open__profile h4 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.open__profile button:hover {
+    background-color: #d2dae2;
 }
