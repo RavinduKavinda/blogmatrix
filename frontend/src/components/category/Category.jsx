@@ -32,7 +32,7 @@ const PrevArrow = (props) => {
 export const Category = () => {
 
     const settings = {
-        dots: false,
+        dots: true,
         infinite: true,
         speed: 500,
         slidesToShow: 2,
