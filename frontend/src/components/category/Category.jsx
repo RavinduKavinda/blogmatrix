@@ -8,9 +8,9 @@ import { MdArrowRight } from 'react-icons/md'
 import { MdArrowLeft } from 'react-icons/md'
 
 const NextArrow = (props) => {
-    const { onclick } = props
+    const { onClick } = props
     return (
-        <div className="control_button" onClick={onclick}>
+        <div className="control_button" onClick={onClick}>
             <button className='next_button'>
                 <MdArrowRight className='icon'/>
             </button>
@@ -19,9 +19,9 @@ const NextArrow = (props) => {
 }
 
 const PrevArrow = (props) => {
-    const { onclick } = props
+    const { onClick } = props
     return (
-        <div className="control_button" onClick={onclick}>
+        <div className="control_button" onClick={onClick}>
             <button className='prev_button'>
                 <MdArrowLeft className='icon'/>
             </button>
