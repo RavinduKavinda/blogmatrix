@@ -1,3 +1,10 @@
+import coverImg01 from './../images/category/category.png'
+import coverImg02 from './../images/category/category.png'
+import coverImg03 from './../images/category/category.png'
+import coverImg04 from './../images/category/category.png'
+import coverImg05 from './../images/category/category.png'
+import coverImg06 from './../images/category/category.png'
+
 /*-----Navbar-----*/
 export const nav = [
     {
@@ -29,41 +36,41 @@ export const nav = [
 
 /*-----Category-----*/
 export const category = [
-{
+  {
     id: 1,
     category: "Travel",
     title: "Adventure Awaits",
-    cover: "../images/category/blog.png",
+    cover: coverImg01,
   },  
   {
     id: 2,
     category: "Food",
     title: "Culinary Delights",
-    cover: "../images/category/blog.png",
+    cover: coverImg02,
   },  
   {
     id: 3,
     category: "Fitness",
     title: "Healthy Lifestyle",
-    cover: "../images/category/blog.png",
+    cover: coverImg03,
   },  
   {
     id: 4,
     category: "Technology",
     title: "Innovation in Progress",
-    cover: "../images/category/blog.png",
+    cover: coverImg04,
   },  
   {
     id: 5,
     category: "Music",
     title: "Harmony and Melodies",
-    cover: "../images/category/blog.png",
+    cover: coverImg05,
   },  
   {
     id: 6,
     category: "Art",
     title: "Creativity Unleashed",
-    cover: "../images/category/blog.png",
+    cover: coverImg06,
   }
 ] 
 
