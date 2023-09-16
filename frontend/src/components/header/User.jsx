@@ -11,7 +11,7 @@ import { BiLogOutCircle } from 'react-icons/bi'
 export const User = () => {
 
   const user = true
-  const [profileOpen, setprofileOpen] = useState(true)
+  const [profileOpen, setprofileOpen] = useState(false)
 
   const close = () => {
     setprofileOpen(false)

@@ -11,28 +11,30 @@ export const Header = () => {
     header.classList.toggle("active", this.window.scrollY > 100)
   })
   return (
-    <header className='header'>
-      <div className="scontainer flex">
-        <div className="logo">
-          <img src={logo} alt="" width='80px' />
-        </div>
+    <>
+      <header className='header'>
+        <div className="scontainer flex">
+          <div className="logo">
+            <img src={logo} alt="" width='80px' />
+          </div>
 
-        {/*----- Nav Bar-----*/}
-        <nav>
-          <ul>
-            {nav.map((link) => (
-              <li key={link.id}>
-                <Link to={link.url}>{link.text}</Link>
-              </li>
-            ))}
-          </ul>
-        </nav>
+          {/*----- Nav Bar-----*/}
+          <nav>
+            <ul>
+              {nav.map((link) => (
+                <li key={link.id}>
+                  <Link to={link.url}>{link.text}</Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
 
-        {/*-----Account-----*/}
-        <div className="account flex__center">
-          <User />
+          {/*-----Account-----*/}
+          <div className="account flex__center">
+            <User />
+          </div>
         </div>
-      </div>
-    </header>
+      </header>
+    </>
   )
 }
