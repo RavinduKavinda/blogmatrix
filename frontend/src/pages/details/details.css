@@ -1,0 +1,25 @@
+.single__post {
+    padding: 50px 0;
+    background: #ecf0f1;
+}
+
+.single__post .right {
+    margin-top: 30px;
+}
+
+.single__post img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.single__post h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.single__post p {
+    margin: 20px;
+    font-size: 18px;
+    line-height: 1.5;
+}
