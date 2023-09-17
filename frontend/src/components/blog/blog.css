@@ -1,0 +1,21 @@
+.blog {
+    margin: 10px ;
+}
+
+.blog .box__item {
+  transition: 0.5s;
+}
+
+.blog .box__item:hover {
+    box-shadow: 0 1px 3px black;
+    cursor: pointer;
+    transform: translateY(-5px);
+}
+
+.blog img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}

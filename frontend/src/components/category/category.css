@@ -8,6 +8,7 @@
   .category .box {
     border-radius: 10px;
     text-align: center;
+    margin: 5px;
   }
 
   .category p {
