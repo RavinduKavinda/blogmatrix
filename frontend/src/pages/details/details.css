@@ -23,3 +23,21 @@
     font-size: 18px;
     line-height: 1.5;
 }
+
+.single__post .buttons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.single__post .button {
+    margin-left: 20px;
+    border: none;
+}
+
+.single__post .button:nth-child(1) {
+    background: #40adc9;
+}
+
+.single__post .button:nth-child(2) {
+    background: #da2c2c;
+}
