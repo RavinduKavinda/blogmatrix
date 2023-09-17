@@ -5,6 +5,17 @@ import coverImg04 from './../images/category/category.png'
 import coverImg05 from './../images/category/category.png'
 import coverImg06 from './../images/category/category.png'
 
+import blogImg01 from './../images/blogs/blog.png'
+import blogImg02 from './../images/blogs/blog.png'
+import blogImg03 from './../images/blogs/blog.png'
+import blogImg04 from './../images/blogs/blog.png'
+import blogImg05 from './../images/blogs/blog.png'
+import blogImg06 from './../images/blogs/blog.png'
+import blogImg07 from './../images/blogs/blog.png'
+import blogImg08 from './../images/blogs/blog.png'
+import blogImg09 from './../images/blogs/blog.png'
+import blogImg10 from './../images/blogs/blog.png'
+
 /*-----Navbar-----*/
 export const nav = [
     {
@@ -81,7 +92,7 @@ export const blog = [
         title: "POST NO.2 - EXPLORING THE WILDERNESS",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo eu justo posuere hendrerit. Integer convallis justo at purus vehicula, in vestibulum nisl vulputate. Etiam pellentesque malesuada efficitur. Sed ac elit vel arcu tincidunt malesuada nec at nulla. Fusce ullamcorper urna a risus dapibus varius. Nunc ut justo vitae justo aliquam iaculis.",
         category: "Travel",
-        cover: "../images/blogs/blog.png",
+        cover: blogImg01,
         date: "Sep 15, 2023",
     },
     {
@@ -89,7 +100,7 @@ export const blog = [
         title: "POST NO.2 - EXPLORING THE WILDERNESS",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo eu justo posuere hendrerit. Integer convallis justo at purus vehicula, in vestibulum nisl vulputate. Etiam pellentesque malesuada efficitur. Sed ac elit vel arcu tincidunt malesuada nec at nulla. Fusce ullamcorper urna a risus dapibus varius. Nunc ut justo vitae justo aliquam iaculis.",
         category: "Travel",
-        cover: "../images/blogs/blog.png",
+        cover: blogImg02,
         date: "Sep 15, 2023",
     },
     {
@@ -97,7 +108,7 @@ export const blog = [
         title: "POST NO.2 - EXPLORING THE WILDERNESS",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo eu justo posuere hendrerit. Integer convallis justo at purus vehicula, in vestibulum nisl vulputate. Etiam pellentesque malesuada efficitur. Sed ac elit vel arcu tincidunt malesuada nec at nulla. Fusce ullamcorper urna a risus dapibus varius. Nunc ut justo vitae justo aliquam iaculis.",
         category: "Travel",
-        cover: "../images/blogs/blog.png",
+        cover: blogImg03,
         date: "Sep 15, 2023",
     },
     {
@@ -105,7 +116,7 @@ export const blog = [
         title: "POST NO.2 - EXPLORING THE WILDERNESS",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo eu justo posuere hendrerit. Integer convallis justo at purus vehicula, in vestibulum nisl vulputate. Etiam pellentesque malesuada efficitur. Sed ac elit vel arcu tincidunt malesuada nec at nulla. Fusce ullamcorper urna a risus dapibus varius. Nunc ut justo vitae justo aliquam iaculis.",
         category: "Travel",
-        cover: "../images/blogs/blog.png",
+        cover: blogImg04,
         date: "Sep 15, 2023",
     },
     {
@@ -113,7 +124,7 @@ export const blog = [
         title: "POST NO.2 - EXPLORING THE WILDERNESS",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo eu justo posuere hendrerit. Integer convallis justo at purus vehicula, in vestibulum nisl vulputate. Etiam pellentesque malesuada efficitur. Sed ac elit vel arcu tincidunt malesuada nec at nulla. Fusce ullamcorper urna a risus dapibus varius. Nunc ut justo vitae justo aliquam iaculis.",
         category: "Travel",
-        cover: "../images/blogs/blog.png",
+        cover: blogImg05,
         date: "Sep 15, 2023",
     },
     {
@@ -121,7 +132,7 @@ export const blog = [
         title: "POST NO.2 - EXPLORING THE WILDERNESS",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo eu justo posuere hendrerit. Integer convallis justo at purus vehicula, in vestibulum nisl vulputate. Etiam pellentesque malesuada efficitur. Sed ac elit vel arcu tincidunt malesuada nec at nulla. Fusce ullamcorper urna a risus dapibus varius. Nunc ut justo vitae justo aliquam iaculis.",
         category: "Travel",
-        cover: "../images/blogs/blog.png",
+        cover: blogImg06,
         date: "Sep 15, 2023",
     },
     {
@@ -129,7 +140,7 @@ export const blog = [
         title: "POST NO.2 - EXPLORING THE WILDERNESS",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo eu justo posuere hendrerit. Integer convallis justo at purus vehicula, in vestibulum nisl vulputate. Etiam pellentesque malesuada efficitur. Sed ac elit vel arcu tincidunt malesuada nec at nulla. Fusce ullamcorper urna a risus dapibus varius. Nunc ut justo vitae justo aliquam iaculis.",
         category: "Travel",
-        cover: "../images/blogs/blog.png",
+        cover: blogImg07,
         date: "Sep 15, 2023",
     },
     {
@@ -137,7 +148,7 @@ export const blog = [
         title: "POST NO.2 - EXPLORING THE WILDERNESS",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo eu justo posuere hendrerit. Integer convallis justo at purus vehicula, in vestibulum nisl vulputate. Etiam pellentesque malesuada efficitur. Sed ac elit vel arcu tincidunt malesuada nec at nulla. Fusce ullamcorper urna a risus dapibus varius. Nunc ut justo vitae justo aliquam iaculis.",
         category: "Travel",
-        cover: "../images/blogs/blog.png",
+        cover: blogImg08,
         date: "Sep 15, 2023",
     },
     {
@@ -145,7 +156,7 @@ export const blog = [
         title: "POST NO.2 - EXPLORING THE WILDERNESS",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo eu justo posuere hendrerit. Integer convallis justo at purus vehicula, in vestibulum nisl vulputate. Etiam pellentesque malesuada efficitur. Sed ac elit vel arcu tincidunt malesuada nec at nulla. Fusce ullamcorper urna a risus dapibus varius. Nunc ut justo vitae justo aliquam iaculis.",
         category: "Travel",
-        cover: "../images/blogs/blog.png",
+        cover: blogImg09,
         date: "Sep 15, 2023",
     },
     {
@@ -153,7 +164,7 @@ export const blog = [
         title: "POST NO.2 - EXPLORING THE WILDERNESS",
         desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac justo eu justo posuere hendrerit. Integer convallis justo at purus vehicula, in vestibulum nisl vulputate. Etiam pellentesque malesuada efficitur. Sed ac elit vel arcu tincidunt malesuada nec at nulla. Fusce ullamcorper urna a risus dapibus varius. Nunc ut justo vitae justo aliquam iaculis.",
         category: "Travel",
-        cover: "../images/blogs/blog.png",
+        cover: blogImg10,
         date: "Sep 15, 2023",
     },
 ]
