@@ -19,3 +19,43 @@
     border-radius: 10px;
     margin-bottom: 10px;
 }
+
+.blog .icon {
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+.blog .tag a {
+    color: gray;
+    opacity: 0.7;
+}
+
+.blog .tag {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.blog h3 {
+    font-weight: 600;
+    color: #0abde3;
+    font-size: 18px;
+}
+
+.blog p {
+    color: #222f3e;
+    font-weight: 400;
+    margin: 20px 0;
+    font-size: 15px;
+    line-height: 25px;
+}
+
+.blog .date {
+    display: flex;
+    align-items: center;
+}
+
+.blog .date label {
+    display: block;
+    margin-right: 15px;
+}
