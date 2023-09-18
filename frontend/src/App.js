@@ -7,6 +7,7 @@ import { Account } from "./pages/account/Account"
 import { Login } from "./pages/login/Login"
 import { Register } from "./pages/login/Register"
 import { Create } from "./components/create/Create"
+import { Footer } from "./components/footer/Footer"
 
 
 const App = () => {
@@ -22,6 +23,7 @@ const App = () => {
           <Route  path='/register' component={Register} />
           <Route  path='/create' component={Create} />
         </Switch>
+        <Footer />
       </Router>
     </>
   )
