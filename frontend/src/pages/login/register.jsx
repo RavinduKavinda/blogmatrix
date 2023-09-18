@@ -1,6 +1,8 @@
-import React from 'react'
+import React from "react";
 import {Link} from 'react-router-dom'
 import login from './../../assets/images/login.png' 
+import './login.css'
+
 
 
 export const Register = () => {
@@ -11,7 +13,7 @@ export const Register = () => {
                 <div className="login__img">
                     <img src={login} alt="" />
                     <div className="text">
-                        <h3>Login</h3>
+                        <h3>Register</h3>
                         <h1>My Account</h1>
                     </div>
                 </div>
@@ -20,6 +22,9 @@ export const Register = () => {
                 <form>
                     <span>Username or Email address*</span>
                     <input type="text" required />
+
+                    <span>Email address*</span>
+                    <input type="email" required />
 
                     <span>Password*</span>
                     <input type="password" required />
