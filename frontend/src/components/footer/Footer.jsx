@@ -6,7 +6,7 @@ export const Footer = () => {
 
   return (
     <>
-        <footer className='box__item'>
+        <footer className='footer'>
             <div className="container flex">
                 <p>
                 Copyright &copy; {currentYear} BLOGMATRIX. All rights reserved. 
