@@ -6,6 +6,7 @@ import { Details } from "./pages/details/Details"
 import { Account } from "./pages/account/Account"
 import { Login } from "./pages/login/Login"
 import { Register } from "./pages/login/Register"
+import { Create } from "./components/create/Create"
 
 
 const App = () => {
@@ -19,6 +20,7 @@ const App = () => {
           <Route  path='/account' component={Account} />
           <Route  path='/login' component={Login} />
           <Route  path='/register' component={Register} />
+          <Route  path='/create' component={Create} />
         </Switch>
       </Router>
     </>
