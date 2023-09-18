@@ -5,7 +5,8 @@ import { Header } from "./components/header/Header"
 import { Details } from "./pages/details/Details"
 import { Account } from "./pages/account/Account"
 import { Login } from "./pages/login/Login"
-import { register } from "./pages/login/register"
+import { Register } from "./pages/login/Register"
+
 
 const App = () => {
   return (
@@ -17,7 +18,7 @@ const App = () => {
           <Route  path='/details/:id' component={Details} />
           <Route  path='/account' component={Account} />
           <Route  path='/login' component={Login} />
-          <Route  path='/register' component={register} />
+          <Route  path='/register' component={Register} />
         </Switch>
       </Router>
     </>
