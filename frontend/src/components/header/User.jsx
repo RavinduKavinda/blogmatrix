@@ -31,7 +31,7 @@ export const User = () => {
 
               <div className="open__profile box__item" onClick={close}>
                 {/*dd profile info*/}
-                <Link to='account'>
+                <Link to='/account'>
                   <div className="image">
                     <div className="img">
                       <img src={profile} alt="Profile_Image" />
