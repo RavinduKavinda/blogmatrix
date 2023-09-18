@@ -75,6 +75,33 @@ form,
   background: #ffffff;
 }
 
+form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: auto;
+  margin-top: 80px;
+  padding: 40px;
+}
+
+form span {
+  margin-bottom: 20px;
+}
+
+form textarea,
+.account__info .right input,
+form input {
+  border: 1px solid #212121;
+  border-radius: 6px;
+  color: #212121;
+  font-size: 15px;
+  min-height: 35px;
+  padding: 0 10px;
+  transition: border-color 0.2s ease;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -91,8 +118,8 @@ form,
 }
 
 .button {
-  background: #485460;
-  border: 2px solid #1e272e;
+  background: black;
+  border: 2px solid black;
   border-radius: 6px;
   color: #ecf0f1;
   cursor: pointer;
@@ -101,6 +128,7 @@ form,
   left: 1px;
   padding: 1px 30px;
   font-size: 15px;
+  margin-top: 10px;
 }
 
 @media screen and (max-width: 768px) {
