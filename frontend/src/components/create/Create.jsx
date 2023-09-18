@@ -18,7 +18,7 @@ export const Create = () => {
 
                     <input type="text" placeholder='Title' />
                     <textarea name="" id="" cols="30" rows="10" ></textarea>
-                    <button>Create Post</button>
+                    <button className='button'>Create Post</button>
                 </form>
             </div>
         </section>
